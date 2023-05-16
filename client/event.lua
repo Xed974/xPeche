@@ -18,3 +18,5 @@ AddEventHandler("xPeche:useCanne", function()
         ESX.ShowNotification("(~r~Erreur~s~)\nVous devez être dans l'eau.")
     end
 end)
+
+--- Xed#1188 | https://discord.gg/HvfAsbgVpM
