@@ -14,3 +14,5 @@ function startFishing()
         Wait(0)
     end
 end
+
+--- Xed#1188 | https://discord.gg/HvfAsbgVpM
