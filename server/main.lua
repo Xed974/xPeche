@@ -42,3 +42,5 @@ AddEventHandler("xPeche:addMoney", function(cb)
         xPlayer.addMoney(cb)
     end
 end)
+
+--- Xed#1188 | https://discord.gg/HvfAsbgVpM
