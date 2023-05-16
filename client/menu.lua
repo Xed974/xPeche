@@ -54,3 +54,5 @@ CreateThread(function()
         Wait(wait)
     end
 end)
+
+--- Xed#1188 | https://discord.gg/HvfAsbgVpM
