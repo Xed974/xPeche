@@ -1,5 +1,4 @@
 function startFishing()
-    isFishing = true
     Wait(math.random(4000, 6000))
     local timeEnd, currentTime = math.random(800, 1000), 0
     ESX.ShowNotification(("Des poissons ont mordu à l'appât, appuyez sur ~%s~G~s~ pour le remonter."):format(xPeche.ColorMenu))
