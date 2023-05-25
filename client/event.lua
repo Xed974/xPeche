@@ -6,6 +6,7 @@ AddEventHandler("xPeche:useCanne", function()
         if not isFishing then
             ESX.TriggerServerCallback("xPeche:getItem", function(haveItem) 
                 if haveItem then
+                    isFishing = true
                     TriggerServerEvent("xPeche:removeItem", "appat", 1)
                     TaskStartScenarioInPlace(PlayerPedId(), 'WORLD_HUMAN_STAND_FISHING', 0, true)
                     startFishing()
